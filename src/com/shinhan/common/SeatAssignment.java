@@ -8,7 +8,9 @@ import java.util.List;
 import java.util.Map;
 import java.util.Random;
 import java.util.Set;
-//2
+
+
+//2.push 
 //1
 public class SeatAssignment {
 	static final int ROWS = 7;
