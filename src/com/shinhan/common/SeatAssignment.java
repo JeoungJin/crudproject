@@ -56,10 +56,12 @@ public class SeatAssignment {
 		}
 
 		// 결과 출력
+		String[] arr1 = {"➊","❷","➌","➍","➎","➏","➐"};
+		String[] arr2 = { "✨1",	"🌟2","💫3","🌈4"};
 		for (int i = 0; i < ROWS; i++) {
-			System.out.printf("\n\n******************[%d]줄*****************\n", (i+1));
+			System.out.printf("\n\n****************** %s줄 *****************\n", arr1[i]);
 			for (int j = 0; j < COLS; j++) {
-				System.out.printf("[%d]%-5s",(j+1), shuffled.get(i * COLS + j));
+				System.out.printf("[%s]%-5s",arr2[j], shuffled.get(i * COLS + j));
 			}			
 		}
 	}
